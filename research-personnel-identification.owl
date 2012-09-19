@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="http://dictionary.casrai.org/ontology/rai/research-personnel-identification/"
+     xml:base="http://dictionary.casrai.org/ontology/rai/research-personnel-identification/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+     <owl:Ontology rdf:about="http://dictionary.casrai.org/ontology/rai/research-personnel-identification/">
+        <rdfs:comment>http://dictionary.casrai.org/research-personnel-profile/identification</rdfs:comment>
+        <owl:versionInfo>2012</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://dictionary.casrai.org/ontology/rai/research-personnel-identification/2012/"/>
+     </owl:Ontology>
+  
+     <owl:AnnotationProperty rdf:about="&skos;definition"/>
+ 
+         
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-personnel-identification/Citizenship">
+       <rdfs:label xml:lang="en">Citizenship</rdfs:label>
+       <rdfs:label xml:lang="fr">Citoyenneté</rdfs:label>
+       <skos:definition>List of countries of which the person has a level of citizenship along with details about the level.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-personnel-identification/LanguageCompetency">
+       <rdfs:label xml:lang="en">Language Competency</rdfs:label>
+       <rdfs:label xml:lang="fr">Compétences linguistique</rdfs:label>
+       <skos:definition>List of languages in which the person has a level of competency along with an indication of competency level.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-personnel-identification/PersonInfo">
+       <rdfs:label xml:lang="en">Person Info</rdfs:label>
+       <rdfs:label xml:lang="fr">Renseignements personnel</rdfs:label>
+       <skos:definition>Information about the person that facilitates identification, including name, date of birth, and gender.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-personnel-identification/CareerStatus">
+       <rdfs:label xml:lang="en">Career Status</rdfs:label>
+       <rdfs:label xml:lang="fr">Carrière</rdfs:label>
+       <skos:definition>Information that conveys key details about the state, and the nature, of the individual's research career.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-personnel-identification/ResearchClassification">
+       <rdfs:label xml:lang="en">Research Classification</rdfs:label>
+       <rdfs:label xml:lang="fr">Classification de la recherche</rdfs:label>
+       <skos:definition>List of each instance of expertise as classified by discipline, field of application and topic.</skos:definition>
+     </owl:Class>
+
+</rdf:RDF>

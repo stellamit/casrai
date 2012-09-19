@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="http://dictionary.casrai.org/ontology/rai/distinction/"
+     xml:base="http://dictionary.casrai.org/ontology/rai/distinction/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+     <owl:Ontology rdf:about="http://dictionary.casrai.org/ontology/rai/distinction/">
+        <rdfs:comment>http://dictionary.casrai.org/research-personnel-profile/distinction</rdfs:comment>
+        <owl:versionInfo>2012</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://dictionary.casrai.org/ontology/rai/distinction/2012/"/>
+     </owl:Ontology>
+  
+     <owl:AnnotationProperty rdf:about="&skos;definition"/>
+ 
+         
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/distinction/Distinction">
+       <rdfs:label xml:lang="en">Distinction</rdfs:label>
+       <rdfs:label xml:lang="fr">Honneur</rdfs:label>
+       <skos:definition>Awards or other distinctions conferred upon the person.</skos:definition>
+     </owl:Class>
+
+</rdf:RDF>

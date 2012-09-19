@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="http://dictionary.casrai.org/ontology/rai/team/"
+     xml:base="http://dictionary.casrai.org/ontology/rai/team/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+     <owl:Ontology rdf:about="http://dictionary.casrai.org/ontology/rai/team/">
+        <rdfs:comment>http://dictionary.casrai.org/research-activity-profile-draft/team</rdfs:comment>
+        <owl:versionInfo>2012</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://dictionary.casrai.org/ontology/rai/team/2012/"/>
+     </owl:Ontology>
+  
+     <owl:AnnotationProperty rdf:about="&skos;definition"/>
+ 
+         
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/team/Participant">
+       <rdfs:label xml:lang="en">Participant</rdfs:label>
+       <skos:definition>Pertinent CV details of all personnel (and their institutional affiliations) who will participate in the research activity.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/team/Capacity">
+       <rdfs:label xml:lang="en">Capacity</rdfs:label>
+       <skos:definition>Information about the capacity of the selected team to deliver the expected results.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/team/HQPTraining">
+       <rdfs:label xml:lang="en">HQP Training</rdfs:label>
+       <skos:definition>Information about highly qualified personnel (HQP) that will receive training as part of this Activity.</skos:definition>
+     </owl:Class>
+
+</rdf:RDF>

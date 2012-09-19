@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="http://dictionary.casrai.org/ontology/rai/other-output/"
+     xml:base="http://dictionary.casrai.org/ontology/rai/other-output/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+     <owl:Ontology rdf:about="http://dictionary.casrai.org/ontology/rai/other-output/">
+        <rdfs:comment>http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/other-outputs</rdfs:comment>
+        <owl:versionInfo>2012</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://dictionary.casrai.org/ontology/rai/other-output/2012/"/>
+     </owl:Ontology>
+  
+     <owl:AnnotationProperty rdf:about="&skos;definition"/>
+ 
+         
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-output/StandardsandPolicy">
+       <rdfs:label xml:lang="en">Standards and Policy</rdfs:label>
+       <rdfs:label xml:lang="fr">Normes et politique</rdfs:label>
+       <skos:definition>The development of a rule or principle that is used as a basis for judgement.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-output/Invention">
+       <rdfs:label xml:lang="en">Invention</rdfs:label>
+       <rdfs:label xml:lang="fr">Invention</rdfs:label>
+       <skos:definition>Practical and original outputs arising from research.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-output/DataSet">
+       <rdfs:label xml:lang="en">Data Set</rdfs:label>
+       <rdfs:label xml:lang="fr">Ensemble de donnée</rdfs:label>
+       <skos:definition>A series of structured observations, measurements or facts identified from the research which can be stored in a database medium.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-output/Litigation">
+       <rdfs:label xml:lang="en">Litigation</rdfs:label>
+       <rdfs:label xml:lang="fr">Instance</rdfs:label>
+       <skos:definition>The act or process of contesting at law.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-output/ResearchTechnique">
+       <rdfs:label xml:lang="en">Research Technique</rdfs:label>
+       <rdfs:label xml:lang="fr">Techniques de recherch</rdfs:label>
+       <skos:definition>A practical methods or skills applied to particular tasks identified as part of the research.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-output/SpinOffCompany">
+       <rdfs:label xml:lang="en">Spin Off Company</rdfs:label>
+       <rdfs:label xml:lang="fr">Sociétés détachée</rdfs:label>
+       <skos:definition>A company set up by a Research Organization to make commercial use of the results and findings of the Research project.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-output/TechnicalStandard">
+       <rdfs:label xml:lang="en">Technical Standard</rdfs:label>
+       <rdfs:label xml:lang="fr">Normes technique</rdfs:label>
+       <skos:definition>Technical Standards (industrial or otherwise) that have originated from the research projects in which new protocols, methods or materials may be developed.</skos:definition>
+     </owl:Class>
+
+</rdf:RDF>

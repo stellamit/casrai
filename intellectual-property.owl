@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="http://dictionary.casrai.org/ontology/rai/intellectual-property/"
+     xml:base="http://dictionary.casrai.org/ontology/rai/intellectual-property/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+     <owl:Ontology rdf:about="http://dictionary.casrai.org/ontology/rai/intellectual-property/">
+        <rdfs:comment>http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/intellectual-property</rdfs:comment>
+        <owl:versionInfo>2012</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://dictionary.casrai.org/ontology/rai/intellectual-property/2012/"/>
+     </owl:Ontology>
+  
+     <owl:AnnotationProperty rdf:about="&skos;definition"/>
+ 
+         
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/intellectual-property/Trademark">
+       <rdfs:label xml:lang="en">Trademark</rdfs:label>
+       <rdfs:label xml:lang="fr">Marques de commerce</rdfs:label>
+       <skos:definition>Marks such as a name, word, phrase, logo, symbol, design, image of a product or service that indicates the source and provides the right to control the use of the identifier.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/intellectual-property/RegisteredCopyright">
+       <rdfs:label xml:lang="en">Registered Copyright</rdfs:label>
+       <rdfs:label xml:lang="fr">Droit d’auteur enregistré</rdfs:label>
+       <skos:definition>Registered ownership of rights under a system of laws for promoting both the creation of and access to artistic, literary, musical, dramatic and other creative works.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/intellectual-property/Disclosure">
+       <rdfs:label xml:lang="en">Disclosure</rdfs:label>
+       <rdfs:label xml:lang="fr">Divulgation</rdfs:label>
+       <skos:definition>Publications that establish inventions as prior art thereby preventing others from patenting the same invention or concept.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/intellectual-property/License">
+       <rdfs:label xml:lang="en">License</rdfs:label>
+       <rdfs:label xml:lang="fr">Licence</rdfs:label>
+       <skos:definition>Signed agreements to exploit a piece of IP such as a process, product, data, or software.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/intellectual-property/Patent">
+       <rdfs:label xml:lang="en">Patent</rdfs:label>
+       <rdfs:label xml:lang="fr">Brevet</rdfs:label>
+       <skos:definition>A form of IP protection that defines the exclusive right by law for inventors and assignees to make use of and exploit their inventions, products or processes, for a limited period of time.</skos:definition>
+     </owl:Class>
+
+</rdf:RDF>

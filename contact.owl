@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="http://dictionary.casrai.org/ontology/rai/contact/"
+     xml:base="http://dictionary.casrai.org/ontology/rai/contact/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+     <owl:Ontology rdf:about="http://dictionary.casrai.org/ontology/rai/contact/">
+        <rdfs:comment>http://dictionary.casrai.org/research-personnel-profile/contact</rdfs:comment>
+        <owl:versionInfo>2012</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://dictionary.casrai.org/ontology/rai/contact/2012/"/>
+     </owl:Ontology>
+  
+     <owl:AnnotationProperty rdf:about="&skos;definition"/>
+ 
+         
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/contact/E-mailAddress">
+       <rdfs:label xml:lang="en">E-mail Address</rdfs:label>
+       <rdfs:label xml:lang="fr">Adresses électronique</rdfs:label>
+       <skos:definition>Electronic mail addresses at which the person can be contacted.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/contact/MailingAddress">
+       <rdfs:label xml:lang="en">Mailing Address</rdfs:label>
+       <rdfs:label xml:lang="fr">Adresse postale</rdfs:label>
+       <skos:definition>Physical addresses with a known postal route location at which the person can receive courier packages or mail.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/contact/PhoneNumber">
+       <rdfs:label xml:lang="en">Phone Number</rdfs:label>
+       <rdfs:label xml:lang="fr">Numéros de téléphone</rdfs:label>
+       <skos:definition>Telephone and facsimile numbers at which the person can be contacted.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/contact/WebAddress">
+       <rdfs:label xml:lang="en">Web Address</rdfs:label>
+       <rdfs:label xml:lang="fr">Adresses Web</rdfs:label>
+       <skos:definition>Web addresses at which the person maintains a presence in connection with research activities.</skos:definition>
+     </owl:Class>
+
+</rdf:RDF>

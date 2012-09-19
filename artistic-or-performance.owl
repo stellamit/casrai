@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/"
+     xml:base="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+     <owl:Ontology rdf:about="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/">
+        <rdfs:comment>http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/artisticperformance</rdfs:comment>
+        <owl:versionInfo>2012</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/2012/"/>
+     </owl:Ontology>
+  
+     <owl:AnnotationProperty rdf:about="&skos;definition"/>
+ 
+         
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/Theatric">
+       <rdfs:label xml:lang="en">Theatric</rdfs:label>
+       <rdfs:label xml:lang="fr">uvres théâtrale</rdfs:label>
+       <skos:definition>Creation, production, dissemination of plays by professional theatre artists and organizations. The artifacts, such costumes, props, sets and scripts, may be the object of a public exhibit.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/ShortFiction">
+       <rdfs:label xml:lang="en">Short Fiction</rdfs:label>
+       <rdfs:label xml:lang="fr">Recueil de nouvelle</rdfs:label>
+       <skos:definition>Original literary texts (prose or poetry).</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/Script">
+       <rdfs:label xml:lang="en">Script</rdfs:label>
+       <rdfs:label xml:lang="fr">Scénario</rdfs:label>
+       <skos:definition>Written versions of a play, film, broadcast or other dramatic composition used in preparing for a performance and annotated with instructions for the performance.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/RadioOrTVProgram">
+       <rdfs:label xml:lang="en">Radio Or TV Program</rdfs:label>
+       <rdfs:label xml:lang="fr">missions de radio ou de télévision</rdfs:label>
+       <skos:definition>Programming produced for and broadcast on radio or TV.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/LightDesign">
+       <rdfs:label xml:lang="en">Light Design</rdfs:label>
+       <rdfs:label xml:lang="fr">Conception d’éclairage</rdfs:label>
+       <skos:definition>Works done within theatre or in relation to an art installation to design a production.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/SetDesign">
+       <rdfs:label xml:lang="en">Set Design</rdfs:label>
+       <rdfs:label xml:lang="fr">Décoration scénique</rdfs:label>
+       <skos:definition>Creations of theatrical, as well as film or television scenery (also known as stage design, scenic design or production design).</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/SoundDesign">
+       <rdfs:label xml:lang="en">Sound Design</rdfs:label>
+       <rdfs:label xml:lang="fr">Conception du son</rdfs:label>
+       <skos:definition>Art and process of manipulating audio elements to achieve a desired effect. It is employed in a variety of disciplines including film, theatre, music recording, and live music performance.  It involves the manipulation of previously composed audio or the creative composition of new audio.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/VisualArtwork">
+       <rdfs:label xml:lang="en">Visual Artwork</rdfs:label>
+       <rdfs:label xml:lang="fr">Arts visuel</rdfs:label>
+       <skos:definition>Works such as film, video, or new media developed as a result of an artistic practice.  May serve for commercial purposes.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/VideoRecording">
+       <rdfs:label xml:lang="en">Video Recording</rdfs:label>
+       <rdfs:label xml:lang="fr">Enregistrements vidéo</rdfs:label>
+       <skos:definition>Works such as film, video, or new media developed as a result of an artistic practice.  May serve for commercial purposes.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/PerformanceArt">
+       <rdfs:label xml:lang="en">Performance Art</rdfs:label>
+       <rdfs:label xml:lang="fr">Art performance</rdfs:label>
+       <skos:definition>Avant-garde or conceptual pieces of music, song, dance or theatre performed for an audience. It may be scripted or improvisational.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/CuratorialOrMuseumExhibition">
+       <rdfs:label xml:lang="en">Curatorial Or Museum Exhibition</rdfs:label>
+       <rdfs:label xml:lang="fr">Expositions de conservatoire Or musée</rdfs:label>
+       <skos:definition>Exhibits under the guidance of a curator responsible for a collection.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/Choreography">
+       <rdfs:label xml:lang="en">Choreography</rdfs:label>
+       <rdfs:label xml:lang="fr">Chorégraphie</rdfs:label>
+       <skos:definition>Dance compositions created for production and dissemination.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/ArtisticExhibition">
+       <rdfs:label xml:lang="en">Artistic Exhibition</rdfs:label>
+       <rdfs:label xml:lang="fr">Expositions artistique</rdfs:label>
+       <skos:definition>Showings of works of art under the direction of a curator, an artist or as a graduation exhibition.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/MusicalPerformance">
+       <rdfs:label xml:lang="en">Musical Performance</rdfs:label>
+       <rdfs:label xml:lang="fr">Interprétations musicale</rdfs:label>
+       <skos:definition>Original musical scores available in a format for dissemination.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/ExhibitionCatalogue">
+       <rdfs:label xml:lang="en">Exhibition Catalogue</rdfs:label>
+       <rdfs:label xml:lang="fr">Catalogues d’exposition</rdfs:label>
+       <skos:definition>Publications for a temporary exhibition or installation at a gallery or alternative space. It documents the contents of an exhibition, providing a forum for critical dialogue between curators, artists and critics.  It serves as a scholarly resource and is eligible for prestigious prizes.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/MusicalComposition">
+       <rdfs:label xml:lang="en">Musical Composition</rdfs:label>
+       <rdfs:label xml:lang="fr">uvres musicale</rdfs:label>
+       <skos:definition>Original musical scores available in a format for dissemination.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/artistic-or-performance/AudioRecording">
+       <rdfs:label xml:lang="en">Audio Recording</rdfs:label>
+       <rdfs:label xml:lang="fr">Enregistrement sonore</rdfs:label>
+       <skos:definition>Works such as classical or aboriginal music produced as a result of an artistic practice. May be produced and be commercially disseminated.</skos:definition>
+     </owl:Class>
+
+</rdf:RDF>

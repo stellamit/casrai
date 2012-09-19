@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="http://dictionary.casrai.org/ontology/rai/funding/"
+     xml:base="http://dictionary.casrai.org/ontology/rai/funding/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+     <owl:Ontology rdf:about="http://dictionary.casrai.org/ontology/rai/funding/">
+        <rdfs:comment>http://dictionary.casrai.org/research-personnel-profile/funding</rdfs:comment>
+        <owl:versionInfo>2012</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://dictionary.casrai.org/ontology/rai/funding/2012/"/>
+     </owl:Ontology>
+  
+     <owl:AnnotationProperty rdf:about="&skos;definition"/>
+ 
+         
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/funding/Multi-yearDetail">
+       <rdfs:label xml:lang="en">Multi-year Detail</rdfs:label>
+       <rdfs:label xml:lang="fr">Détails du financement sur plusieurs année</rdfs:label>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/funding/GrantParticipant">
+       <rdfs:label xml:lang="en">Grant Participant</rdfs:label>
+       <rdfs:label xml:lang="fr">Bénéficiaires de la subvention</rdfs:label>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/funding/Contract">
+       <rdfs:label xml:lang="en">Contract</rdfs:label>
+       <rdfs:label xml:lang="fr">Contrat</rdfs:label>
+       <skos:definition>Works commissioned by external public agencies or industry building on research expertise and aimed at deliverables. Include research contracts awarded by federal agencies for both direct and indirect costs, and honoraria.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/funding/ContractParticipant">
+       <rdfs:label xml:lang="en">Contract Participant</rdfs:label>
+       <rdfs:label xml:lang="fr">Participants contractuel</rdfs:label>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/funding/Award">
+       <rdfs:label xml:lang="en">Award</rdfs:label>
+       <rdfs:label xml:lang="fr">Prix</rdfs:label>
+       <skos:definition>Peer-reviewed funding providing direct research costs through competitions.</skos:definition>
+     </owl:Class>
+
+</rdf:RDF>

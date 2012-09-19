@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="http://dictionary.casrai.org/ontology/rai/other-service/"
+     xml:base="http://dictionary.casrai.org/ontology/rai/other-service/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+     <owl:Ontology rdf:about="http://dictionary.casrai.org/ontology/rai/other-service/">
+        <rdfs:comment>http://dictionary.casrai.org/research-personnel-profile/contributions/services/other-services</rdfs:comment>
+        <owl:versionInfo>2012</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://dictionary.casrai.org/ontology/rai/other-service/2012/"/>
+     </owl:Ontology>
+  
+     <owl:AnnotationProperty rdf:about="&skos;definition"/>
+ 
+         
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-service/Non-researchPresentation">
+       <rdfs:label xml:lang="en">Non-research Presentation</rdfs:label>
+       <rdfs:label xml:lang="fr">Exposés non liés à la recherche</rdfs:label>
+       <skos:definition>Contributions of presentations to groups of people, not directly related to the person's research activities, and not delivered as part of a formal course of study.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-service/CommitteeMembership">
+       <rdfs:label xml:lang="en">Committee Membership</rdfs:label>
+       <rdfs:label xml:lang="fr">Participation à des comité</rdfs:label>
+       <skos:definition>Services contributed as part of a group elected or appointed to perform such services but not directly related to the person's research activities.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-service/OfficeHeld">
+       <rdfs:label xml:lang="en">Office Held</rdfs:label>
+       <rdfs:label xml:lang="fr">Charges détenue</rdfs:label>
+       <skos:definition>Services contributed in a position of duty or function.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-service/EventAdministration">
+       <rdfs:label xml:lang="en">Event Administration</rdfs:label>
+       <rdfs:label xml:lang="fr">Administration d’événement</rdfs:label>
+       <skos:definition>Services contributed in the planning, organization, coordination and staging of a public event.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-service/Editorial">
+       <rdfs:label xml:lang="en">Editorial</rdfs:label>
+       <rdfs:label xml:lang="fr">ditorial</rdfs:label>
+       <skos:definition>Contribution in the provision of an opinion statement regarding a certain topic.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-service/CommunityService">
+       <rdfs:label xml:lang="en">Community Service</rdfs:label>
+       <rdfs:label xml:lang="fr">Service dans la collectivité</rdfs:label>
+       <skos:definition>Services contributed, unpaid, on behalf of one’s locality, social, religious, occupational, or other group sharing common characteristics or interests, but not directly related to the person's research activities.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-service/EventParticipation">
+       <rdfs:label xml:lang="en">Event Participation</rdfs:label>
+       <rdfs:label xml:lang="fr">Participation à un événement</rdfs:label>
+       <skos:definition>Services contributed in taking part in an event.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-service/Membership">
+       <rdfs:label xml:lang="en">Membership</rdfs:label>
+       <rdfs:label xml:lang="fr">Appartenance</rdfs:label>
+       <skos:definition>Services contributed as part of a society, community, or other body.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-service/CourseTaught">
+       <rdfs:label xml:lang="en">Course Taught</rdfs:label>
+       <rdfs:label xml:lang="fr">Cours enseigné</rdfs:label>
+       <skos:definition>Services contributed in the form of courses taught at academic institutions with which the person is currently, or has in the past been, affiliated.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-service/CourseDeveloped">
+       <rdfs:label xml:lang="en">Course Developed</rdfs:label>
+       <rdfs:label xml:lang="fr">Cours élaboré</rdfs:label>
+       <skos:definition>Contributions in the development of courses/modules for training or teaching purposes.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-service/ProgramDeveloped">
+       <rdfs:label xml:lang="en">Program Developed</rdfs:label>
+       <rdfs:label xml:lang="fr">Programmes élaboré</rdfs:label>
+       <skos:definition>Contribution in cases of development of an entire course of study.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-service/Course-basedDegreeSupervision">
+       <rdfs:label xml:lang="en">Course-based Degree Supervision</rdfs:label>
+       <rdfs:label xml:lang="fr">Supervisions de diplôme à partir de cour</rdfs:label>
+       <skos:definition>Services contributed in instances of overseeing the productivity and progress of a student reporting directly to the person, who is undertaking research activity, usually in pursuit of academic credit.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/other-service/EmployeeSupervision">
+       <rdfs:label xml:lang="en">Employee Supervision</rdfs:label>
+       <rdfs:label xml:lang="fr">Supervisions d’employé</rdfs:label>
+       <skos:definition>Services contributed in instances of overseeing the productivity and progress of an employee reporting directly to the person.</skos:definition>
+     </owl:Class>
+
+</rdf:RDF>

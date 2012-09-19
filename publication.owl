@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="http://dictionary.casrai.org/ontology/rai/publication/"
+     xml:base="http://dictionary.casrai.org/ontology/rai/publication/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+     <owl:Ontology rdf:about="http://dictionary.casrai.org/ontology/rai/publication/">
+        <rdfs:comment>http://dictionary.casrai.org/research-personnel-profile/contributions/outputs/publications</rdfs:comment>
+        <owl:versionInfo>2012</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://dictionary.casrai.org/ontology/rai/publication/2012/"/>
+     </owl:Ontology>
+  
+     <owl:AnnotationProperty rdf:about="&skos;definition"/>
+ 
+         
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/JournalArticle">
+       <rdfs:label xml:lang="en">Journal Article</rdfs:label>
+       <rdfs:label xml:lang="fr">Articles de revue</rdfs:label>
+       <skos:definition>Articles in peer-reviewed publications that disseminate the results of original research and scholarship.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/JournalIssue">
+       <rdfs:label xml:lang="en">Journal Issue</rdfs:label>
+       <rdfs:label xml:lang="fr">Numéros de revue</rdfs:label>
+       <skos:definition>Periodical publications aimed at fostering intellectual debate and inquiry. Special journal issues are produced by editors with an established record of scholarship in the field and able to provide the direction of the theme. Journal issues bear a unique number of reference for publication.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/Book">
+       <rdfs:label xml:lang="en">Book</rdfs:label>
+       <rdfs:label xml:lang="fr">Livre</rdfs:label>
+       <skos:definition>Books written by a single author or collaboratively based on research or scholarly findings generally derived from peer reviewed funding.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/EditedBook">
+       <rdfs:label xml:lang="en">Edited Book</rdfs:label>
+       <rdfs:label xml:lang="fr">Livres dirigé</rdfs:label>
+       <skos:definition>Books edited by a single author or collaboratively for the dissemination of research or scholarly findings that generally result from peer reviewed funding.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/BookChapter">
+       <rdfs:label xml:lang="en">Book Chapter</rdfs:label>
+       <rdfs:label xml:lang="fr">Chapitres de livre</rdfs:label>
+       <skos:definition>Texts written by a single author or collaboratively based on research or scholarly findings and expertise in a field.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/BookReview">
+       <rdfs:label xml:lang="en">Book Review</rdfs:label>
+       <rdfs:label xml:lang="fr">Critiques de livre</rdfs:label>
+       <skos:definition>Critical review of works of fiction or non-fiction highlighting the contributions to an art, field or discipline.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/Translation">
+       <rdfs:label xml:lang="en">Translation</rdfs:label>
+       <rdfs:label xml:lang="fr">Traduction</rdfs:label>
+       <skos:definition>Translations of books and articles that identify modifications to the original edition, such as a new or revised preface.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/Dissertation">
+       <rdfs:label xml:lang="en">Dissertation</rdfs:label>
+       <rdfs:label xml:lang="fr">Thèse</rdfs:label>
+       <skos:definition>Treatise advancing an original point of view resulting from research: a requirement for a doctoral degree.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/SupervisedStudentPublication">
+       <rdfs:label xml:lang="en">Supervised Student Publication</rdfs:label>
+       <rdfs:label xml:lang="fr">Publications par des étudiant(s) supervisé(e)</rdfs:label>
+       <skos:definition>Articles on research findings published jointly with or supervised by the thesis advisor. The findings relate to research undertaken by the student or the supervisor’s program of research.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/NewspaperArticle">
+       <rdfs:label xml:lang="en">Newspaper Article</rdfs:label>
+       <rdfs:label xml:lang="fr">Articles de journaux</rdfs:label>
+       <skos:definition>Articles in a daily, weekly or monthly publication reporting on news and social issues aimed at the public. May entail critical analysis based on expertise in the field.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/NewsletterArticle">
+       <rdfs:label xml:lang="en">Newsletter Article</rdfs:label>
+       <rdfs:label xml:lang="fr">Articles de journaux</rdfs:label>
+       <skos:definition>Articles in publications aimed at researchers, decision-makers, professionals and the public that report on a research project or on the activities of a research chair or a research centre. The Newsletters promote research activities to the community and the university; mobilize knowledge to improve practice and inform policy, and provide relevant and accessible information to the broader public.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/EncyclopediaEntry">
+       <rdfs:label xml:lang="en">Encyclopedia Entry</rdfs:label>
+       <rdfs:label xml:lang="fr">Articles d’encyclopédie</rdfs:label>
+       <skos:definition>Authored entries in a reference work or a compendium focusing on a particular domain or on all branches of knowledge.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/MagazineArticle">
+       <rdfs:label xml:lang="en">Magazine Article</rdfs:label>
+       <rdfs:label xml:lang="fr">Articles de magazine</rdfs:label>
+       <skos:definition>Articles in thematic publications published at fixed intervals.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/DictionaryEntry">
+       <rdfs:label xml:lang="en">Dictionary Entry</rdfs:label>
+       <rdfs:label xml:lang="fr">Unités lexicales dans un dictionnaire</rdfs:label>
+       <skos:definition>Entries of new words, new meanings of existing words, changes in spelling and hyphenation over a longer period of time, and grammatical changes.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/Report">
+       <rdfs:label xml:lang="en">Report</rdfs:label>
+       <rdfs:label xml:lang="fr">Rapport</rdfs:label>
+       <skos:definition>Reports disseminating the outcomes and deliverables of a research contract. May entail a contribution to public policy.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/WorkingPaper">
+       <rdfs:label xml:lang="en">Working Paper</rdfs:label>
+       <rdfs:label xml:lang="fr">Documents de travail</rdfs:label>
+       <skos:definition>Preliminary versions of articles that have not undergone review but that may be shared for comment.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/ResearchTool">
+       <rdfs:label xml:lang="en">Research Tool</rdfs:label>
+       <rdfs:label xml:lang="fr">Outils de recherche</rdfs:label>
+       <skos:definition>Series of observations, measurements or facts identified from the research.  They include bibliographies, indices and catalogues of research collections; concordances and dictionaries; materials that facilitate access to archival holdings or collections such as repository guides, inventories of a group of manuscripts or of a body of archives, inventories or documentary materials, thematic guides to archival materials, records surveys and special indices; scholarly editions; and data series.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/Manual">
+       <rdfs:label xml:lang="en">Manual</rdfs:label>
+       <rdfs:label xml:lang="fr">Manuel</rdfs:label>
+       <skos:definition>Course and assignment materials produced for teaching purposes.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/OnlineResource">
+       <rdfs:label xml:lang="en">Online Resource</rdfs:label>
+       <rdfs:label xml:lang="fr">Ressources en ligne</rdfs:label>
+       <skos:definition>Information accessible only on the web via traditional technical methods (ie hyperlinks).</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/Test">
+       <rdfs:label xml:lang="en">Test</rdfs:label>
+       <rdfs:label xml:lang="fr">Test</rdfs:label>
+       <skos:definition>Assessments that include tests designed for general university selection, selection into specific courses or other evaluation purposes.</skos:definition>
+     </owl:Class>
+
+     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/publication/Website">
+       <rdfs:label xml:lang="en">Website</rdfs:label>
+       <rdfs:label xml:lang="fr">Sites Web</rdfs:label>
+       <skos:definition>Stand-alone locations on the web where multiple types of information on a specific theme are available. May include interactive features for contributions from readers.</skos:definition>
+     </owl:Class>
+
+</rdf:RDF>
