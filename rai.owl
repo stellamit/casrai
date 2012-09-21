@@ -50,7 +50,157 @@
     </owl:Ontology>
     
 
- </rdf:RDF>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/Event -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/Event">
+        <rdfs:seeAlso>event:Event</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/InformationResource -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/InformationResource"/>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/Person -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/Person">
+        <rdfs:seeAlso>foaf:Person</rdfs:seeAlso>
+        <rdfs:comment>fields from person identification could go here</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/ResearchActivity -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/ResearchActivity">
+        <rdfs:comment>intended to have the fields from identification/activity info record</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/artistic-or-performance/ArtisticExhibition -->
+
+    <rdf:Description rdf:about="&artistic-or-performance;ArtisticExhibition">
+        <rdfs:subClassOf rdf:resource="http://dictionary.casrai.org/ontology/rai/Event"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/artistic-or-performance/AudioRecording -->
+
+    <rdf:Description rdf:about="&artistic-or-performance;AudioRecording">
+        <rdfs:subClassOf rdf:resource="http://dictionary.casrai.org/ontology/rai/InformationResource"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/conference/ConferenceAbstract -->
+
+    <rdf:Description rdf:about="&conference;ConferenceAbstract">
+        <rdfs:subClassOf rdf:resource="http://dictionary.casrai.org/ontology/rai/InformationResource"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/conference/ConferencePaper -->
+
+    <rdf:Description rdf:about="&conference;ConferencePaper">
+        <rdfs:subClassOf rdf:resource="http://dictionary.casrai.org/ontology/rai/InformationResource"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/conference/ConferencePoster -->
+
+    <rdf:Description rdf:about="&conference;ConferencePoster">
+        <rdfs:subClassOf rdf:resource="http://dictionary.casrai.org/ontology/rai/InformationResource"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/other-output/DataSet -->
+
+    <rdf:Description rdf:about="&other-output;DataSet">
+        <rdfs:subClassOf rdf:resource="http://dictionary.casrai.org/ontology/rai/InformationResource"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/publication/Book -->
+
+    <rdf:Description rdf:about="&publication;Book">
+        <rdfs:subClassOf rdf:resource="http://dictionary.casrai.org/ontology/rai/InformationResource"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/publication/BookChapter -->
+
+    <rdf:Description rdf:about="&publication;BookChapter">
+        <rdfs:subClassOf rdf:resource="http://dictionary.casrai.org/ontology/rai/InformationResource"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/publication/BookReview -->
+
+    <rdf:Description rdf:about="&publication;BookReview">
+        <rdfs:subClassOf rdf:resource="http://dictionary.casrai.org/ontology/rai/InformationResource"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/publication/DictionaryEntry -->
+
+    <rdf:Description rdf:about="&publication;DictionaryEntry">
+        <rdfs:subClassOf rdf:resource="http://dictionary.casrai.org/ontology/rai/InformationResource"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/BroadcastInterview -->
+
+    <rdf:Description rdf:about="&research-or-scholarly-service;BroadcastInterview">
+        <rdfs:subClassOf rdf:resource="http://dictionary.casrai.org/ontology/rai/InformationResource"/>
+    </rdf:Description>
+</rdf:RDF>
 
 
 
