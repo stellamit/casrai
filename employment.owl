@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 
+
 <!DOCTYPE rdf:RDF [
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
@@ -8,6 +9,7 @@
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
 ]>
 
+
 <rdf:RDF xmlns="http://dictionary.casrai.org/ontology/rai/employment/"
      xml:base="http://dictionary.casrai.org/ontology/rai/employment/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -15,38 +17,88 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#">
-     <owl:Ontology rdf:about="http://dictionary.casrai.org/ontology/rai/employment/">
+    <owl:Ontology rdf:about="http://dictionary.casrai.org/ontology/rai/employment/">
         <rdfs:comment>http://dictionary.casrai.org/research-personnel-profile/employment</rdfs:comment>
         <owl:versionInfo>2012</owl:versionInfo>
         <owl:versionIRI rdf:resource="http://dictionary.casrai.org/ontology/rai/employment/2012/"/>
-     </owl:Ontology>
-  
-     <owl:AnnotationProperty rdf:about="&skos;definition"/>
- 
-         
+    </owl:Ontology>
+    
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/employment/ProfessionalLeaveofAbsence">
-       <rdfs:label xml:lang="en">Professional Leave of Absence</rdfs:label>
-       <rdfs:label xml:lang="fr">Congés autorisé</rdfs:label>
-       <skos:definition>Gaps in a person's employment history that can be attributed to a professional reason.</skos:definition>
-     </owl:Class>
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/employment/EducationalInstitution">
-       <rdfs:label xml:lang="en">Educational Institution</rdfs:label>
-       <rdfs:label xml:lang="fr">tablissement d’enseignement</rdfs:label>
-       <skos:definition>Employment in an academic environment.</skos:definition>
-     </owl:Class>
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/employment/Other">
-       <rdfs:label xml:lang="en">Other</rdfs:label>
-       <rdfs:label xml:lang="fr">Autre</rdfs:label>
-       <skos:definition>Employment in a non-academic environment.</skos:definition>
-     </owl:Class>
+    <owl:AnnotationProperty rdf:about="&skos;definition"/>
+    
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/employment/PersonalLeaveofAbsence">
-       <rdfs:label xml:lang="en">Personal Leave of Absence</rdfs:label>
-       <rdfs:label xml:lang="fr">Congés personnels autorisé</rdfs:label>
-       <skos:definition>Gaps in the person's employment history that can be attributed to a personal reason. Details about the leave are not supplied - only that the leave was of a personal nature.</skos:definition>
-     </owl:Class>
 
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/employment/EducationalInstitution -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/employment/EducationalInstitution">
+        <rdfs:label xml:lang="en">Educational Institution</rdfs:label>
+        <rdfs:label xml:lang="fr">tablissement d’enseignement</rdfs:label>
+        <skos:definition>Employment in an academic environment.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/employment/PersonalLeaveofAbsence -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/employment/PersonalLeaveofAbsence">
+        <rdfs:label xml:lang="en">Personal Leave of Absence</rdfs:label>
+        <rdfs:label xml:lang="fr">Congés personnels autorisé</rdfs:label>
+        <skos:definition>Gaps in the person&apos;s employment history that can be attributed to a personal reason. Details about the leave are not supplied - only that the leave was of a personal nature.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/employment/PositionOutsideAcademia -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/employment/PositionOutsideAcademia">
+        <rdfs:label xml:lang="en">Other</rdfs:label>
+        <rdfs:label xml:lang="fr">Autre</rdfs:label>
+        <skos:definition>Employment in a non-academic environment.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/employment/ProfessionalLeaveofAbsence -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/employment/ProfessionalLeaveofAbsence">
+        <rdfs:label xml:lang="en">Professional Leave of Absence</rdfs:label>
+        <rdfs:label xml:lang="fr">Congés autorisé</rdfs:label>
+        <skos:definition>Gaps in a person&apos;s employment history that can be attributed to a professional reason.</skos:definition>
+    </owl:Class>
 </rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+

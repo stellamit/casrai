@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 
+
 <!DOCTYPE rdf:RDF [
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
@@ -8,6 +9,7 @@
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
 ]>
 
+
 <rdf:RDF xmlns="http://dictionary.casrai.org/ontology/rai/funding-request/"
      xml:base="http://dictionary.casrai.org/ontology/rai/funding-request/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -15,34 +17,84 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#">
-     <owl:Ontology rdf:about="http://dictionary.casrai.org/ontology/rai/funding-request/">
-        <rdfs:comment>http://dictionary.casrai.org/research-activity-profile-draft/funding-requests</rdfs:comment>
+    <owl:Ontology rdf:about="http://dictionary.casrai.org/ontology/rai/funding-request/">
         <owl:versionInfo>2012</owl:versionInfo>
+        <rdfs:comment>http://dictionary.casrai.org/research-activity-profile-draft/funding-requests</rdfs:comment>
         <owl:versionIRI rdf:resource="http://dictionary.casrai.org/ontology/rai/funding-request/2012/"/>
-     </owl:Ontology>
-  
-     <owl:AnnotationProperty rdf:about="&skos;definition"/>
- 
-         
+    </owl:Ontology>
+    
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/funding-request/ReviewerSuggestion">
-       <rdfs:label xml:lang="en">Reviewer Suggestion</rdfs:label>
-       <skos:definition>Information about which specific research peers are suggested for inclusion and exclusion when reviewing this activity for funding merit.</skos:definition>
-     </owl:Class>
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/funding-request/FundsRequested">
-       <rdfs:label xml:lang="en">Funds Requested</rdfs:label>
-       <skos:definition>Information about specific requests for funds submitted to potential funders of the activity. The standard allows details to be collected for multiple years.</skos:definition>
-     </owl:Class>
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/funding-request/Reference">
-       <rdfs:label xml:lang="en">Reference</rdfs:label>
-       <skos:definition>Information from referees expressing support for the Senior Personnel involved in the research activity.</skos:definition>
-     </owl:Class>
+    <owl:AnnotationProperty rdf:about="&skos;definition"/>
+    
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/funding-request/Signature">
-       <rdfs:label xml:lang="en">Signature</rdfs:label>
-       <skos:definition>Information (including any attachments) that verifies that the activity has all the required institutional and partner signatures needed to proceed.</skos:definition>
-     </owl:Class>
 
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/funding-request/FundsRequested -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/funding-request/FundsRequested">
+        <rdfs:label xml:lang="en">Funds Requested</rdfs:label>
+        <skos:definition>Information about specific requests for funds submitted to potential funders of the activity. The standard allows details to be collected for multiple years.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/funding-request/Reference -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/funding-request/Reference">
+        <rdfs:label xml:lang="en">Reference</rdfs:label>
+        <skos:definition>Information from referees expressing support for the Senior Personnel involved in the research activity.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/funding-request/ReviewerSuggestion -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/funding-request/ReviewerSuggestion">
+        <rdfs:label xml:lang="en">Reviewer Suggestion</rdfs:label>
+        <skos:definition>Information about which specific research peers are suggested for inclusion and exclusion when reviewing this activity for funding merit.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/funding-request/SignatureVerification -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/funding-request/SignatureVerification">
+        <rdfs:label xml:lang="en">Signature</rdfs:label>
+        <skos:definition>Information (including any attachments) that verifies that the activity has all the required institutional and partner signatures needed to proceed.</skos:definition>
+    </owl:Class>
 </rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 
+
 <!DOCTYPE rdf:RDF [
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
@@ -8,6 +9,7 @@
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
 ]>
 
+
 <rdf:RDF xmlns="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/"
      xml:base="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -15,86 +17,168 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#">
-     <owl:Ontology rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/">
+    <owl:Ontology rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/">
         <rdfs:comment>http://dictionary.casrai.org/research-personnel-profile/contributions/services/researchscholarly</rdfs:comment>
         <owl:versionInfo>2012</owl:versionInfo>
         <owl:versionIRI rdf:resource="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/2012/"/>
-     </owl:Ontology>
-  
-     <owl:AnnotationProperty rdf:about="&skos;definition"/>
- 
-         
+    </owl:Ontology>
+    
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/ConsultingOrAdvisory">
-       <rdfs:label xml:lang="en">Consulting Or Advisory</rdfs:label>
-       <rdfs:label xml:lang="fr">Expert-conseils Or consultation</rdfs:label>
-       <skos:definition>Services contributed to develop findings, conclusions, and recommendations that are presented for consideration and decision making.</skos:definition>
-     </owl:Class>
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/InstitutionalReview">
-       <rdfs:label xml:lang="en">Institutional Review</rdfs:label>
-       <rdfs:label xml:lang="fr">valuaitions institutionnelle</rdfs:label>
-       <skos:definition>Services contributed, in conjunction with the assessment of an institution, to examine something, formulate a judgement, and a statement of that judgement.</skos:definition>
-     </owl:Class>
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/ExpertWitness">
-       <rdfs:label xml:lang="en">Expert Witness</rdfs:label>
-       <rdfs:label xml:lang="fr">Témoin expert</rdfs:label>
-       <skos:definition>Services contributed to a legal proceeding.</skos:definition>
-     </owl:Class>
+    <owl:AnnotationProperty rdf:about="&skos;definition"/>
+    
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/JournalReviewingOrRefereeing">
-       <rdfs:label xml:lang="en">Journal Reviewing Or Refereeing</rdfs:label>
-       <rdfs:label xml:lang="fr">Critique Or évaluation d’une revue</rdfs:label>
-       <skos:definition>Services contributed to examine a journal, formulate a judgement, and a statement of that judgement.</skos:definition>
-     </owl:Class>
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/ConferenceReviewingOrRefereeing">
-       <rdfs:label xml:lang="en">Conference Reviewing Or Refereeing</rdfs:label>
-       <rdfs:label xml:lang="fr">Conférence évaluée ou examinée en comité de lecture</rdfs:label>
-       <skos:definition>Services contributed, in conjunction with a scheduled conference, to examine something, formulate a judgement, and a statement of that judgement.</skos:definition>
-     </owl:Class>
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/GraduateExamination">
-       <rdfs:label xml:lang="en">Graduate Examination</rdfs:label>
-       <rdfs:label xml:lang="fr">valuations de diplômé</rdfs:label>
-       <skos:definition>Services contributed, in conjunction with the awarding of a graduate degree, to examine something, formulate a judgement, and a statement of that judgement.</skos:definition>
-     </owl:Class>
+    
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/Mentoring">
-       <rdfs:label xml:lang="en">Mentoring</rdfs:label>
-       <rdfs:label xml:lang="fr">Mentorat</rdfs:label>
-       <skos:definition>Services contributed, in order to provide counsel, guidance, and instruction to a protege.</skos:definition>
-     </owl:Class>
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/GrantApplicationAssessment">
-       <rdfs:label xml:lang="en">Grant Application Assessment</rdfs:label>
-       <rdfs:label xml:lang="fr">valuations de demandes de subvention</rdfs:label>
-       <skos:definition>Services contributed, in conjunction with the appraisal of grant applications, to examine something, formulate a judgement, and a statement of that judgement.</skos:definition>
-     </owl:Class>
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/PromotionOrTenureAssessment">
-       <rdfs:label xml:lang="en">Promotion Or Tenure Assessment</rdfs:label>
-       <rdfs:label xml:lang="fr">valuations de promotions Or titularisation</rdfs:label>
-       <skos:definition>Services contributed, in conjunction with the consideration of an application for promotion/tenure, to examine something, formulate a judgement, and a statement of that judgement.</skos:definition>
-     </owl:Class>
+    
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/BroadcastInterview">
-       <rdfs:label xml:lang="en">Broadcast Interview</rdfs:label>
-       <rdfs:label xml:lang="fr">Entrevues diffusée</rdfs:label>
-       <skos:definition>Services contributed in the form of interview(s) with the person with a member of the broadcast (TV or radio) media.</skos:definition>
-     </owl:Class>
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/TextInterview">
-       <rdfs:label xml:lang="en">Text Interview</rdfs:label>
-       <rdfs:label xml:lang="fr">Entrevues avec la presse écrite</rdfs:label>
-       <skos:definition>Services contributed in the form of interview(s) with the person with a member of the print or online media.</skos:definition>
-     </owl:Class>
+    <!-- http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/BroadcastInterview -->
 
-     <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/Research-basedDegreeSupervision">
-       <rdfs:label xml:lang="en">Research-based Degree Supervision</rdfs:label>
-       <rdfs:label xml:lang="fr">Supervisions de grades fondés sur la recherche</rdfs:label>
-       <skos:definition>Services contributed in instances of overseeing the productivity and progress of a student reporting directly to the person, usually in pursuit of academic credit.</skos:definition>
-     </owl:Class>
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/BroadcastInterview">
+        <rdfs:label xml:lang="en">Broadcast Interview</rdfs:label>
+        <rdfs:label xml:lang="fr">Entrevues diffusée</rdfs:label>
+        <skos:definition>Services contributed in the form of interview(s) with the person with a member of the broadcast (TV or radio) media.</skos:definition>
+    </owl:Class>
+    
 
+
+    <!-- http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/ConferenceReviewingOrRefereeing -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/ConferenceReviewingOrRefereeing">
+        <rdfs:label xml:lang="en">Conference Reviewing Or Refereeing</rdfs:label>
+        <rdfs:label xml:lang="fr">Conférence évaluée ou examinée en comité de lecture</rdfs:label>
+        <skos:definition>Services contributed, in conjunction with a scheduled conference, to examine something, formulate a judgement, and a statement of that judgement.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/ConsultantAdvisorRole -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/ConsultantAdvisorRole">
+        <rdfs:label xml:lang="en">Consulting Or Advisory</rdfs:label>
+        <rdfs:label xml:lang="fr">Expert-conseils Or consultation</rdfs:label>
+        <skos:definition>Services contributed to develop findings, conclusions, and recommendations that are presented for consideration and decision making.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/ExpertWitnessRole -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/ExpertWitnessRole">
+        <rdfs:label xml:lang="en">Expert Witness</rdfs:label>
+        <rdfs:label xml:lang="fr">Témoin expert</rdfs:label>
+        <skos:definition>Services contributed to a legal proceeding.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/GraduateExamination -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/GraduateExamination">
+        <rdfs:label xml:lang="en">Graduate Examination</rdfs:label>
+        <rdfs:label xml:lang="fr">valuations de diplômé</rdfs:label>
+        <skos:definition>Services contributed, in conjunction with the awarding of a graduate degree, to examine something, formulate a judgement, and a statement of that judgement.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/GrantApplicationAssessment -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/GrantApplicationAssessment">
+        <rdfs:label xml:lang="en">Grant Application Assessment</rdfs:label>
+        <rdfs:label xml:lang="fr">valuations de demandes de subvention</rdfs:label>
+        <skos:definition>Services contributed, in conjunction with the appraisal of grant applications, to examine something, formulate a judgement, and a statement of that judgement.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/InstitutionalReview -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/InstitutionalReview">
+        <rdfs:label xml:lang="en">Institutional Review</rdfs:label>
+        <rdfs:label xml:lang="fr">valuaitions institutionnelle</rdfs:label>
+        <skos:definition>Services contributed, in conjunction with the assessment of an institution, to examine something, formulate a judgement, and a statement of that judgement.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/JournalReviewingOrRefereeing -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/JournalReviewingOrRefereeing">
+        <rdfs:label xml:lang="en">Journal Reviewing Or Refereeing</rdfs:label>
+        <rdfs:label xml:lang="fr">Critique Or évaluation d’une revue</rdfs:label>
+        <skos:definition>Services contributed to examine a journal, formulate a judgement, and a statement of that judgement.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/MentorRole -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/MentorRole">
+        <rdfs:label xml:lang="en">Mentoring</rdfs:label>
+        <rdfs:label xml:lang="fr">Mentorat</rdfs:label>
+        <skos:definition>Services contributed, in order to provide counsel, guidance, and instruction to a protege.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/PromotionOrTenureAssessment -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/PromotionOrTenureAssessment">
+        <rdfs:label xml:lang="en">Promotion Or Tenure Assessment</rdfs:label>
+        <rdfs:label xml:lang="fr">valuations de promotions Or titularisation</rdfs:label>
+        <skos:definition>Services contributed, in conjunction with the consideration of an application for promotion/tenure, to examine something, formulate a judgement, and a statement of that judgement.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/Research-basedDegreeSupervision -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/Research-basedDegreeSupervision">
+        <rdfs:label xml:lang="en">Research-based Degree Supervision</rdfs:label>
+        <rdfs:label xml:lang="fr">Supervisions de grades fondés sur la recherche</rdfs:label>
+        <skos:definition>Services contributed in instances of overseeing the productivity and progress of a student reporting directly to the person, usually in pursuit of academic credit.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/TextInterview -->
+
+    <owl:Class rdf:about="http://dictionary.casrai.org/ontology/rai/research-or-scholarly-service/TextInterview">
+        <rdfs:label xml:lang="en">Text Interview</rdfs:label>
+        <rdfs:label xml:lang="fr">Entrevues avec la presse écrite</rdfs:label>
+        <skos:definition>Services contributed in the form of interview(s) with the person with a member of the print or online media.</skos:definition>
+    </owl:Class>
 </rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+
